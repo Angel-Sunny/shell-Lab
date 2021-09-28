@@ -12,10 +12,7 @@ factorial()
   fi
 }
 
-
-while (ch!='e') :
-do
-  echo "Enter a number:"
-  read x
-  factorial $x
-done    
+echo "Enter a number:"
+read x
+factorial $x
+   
